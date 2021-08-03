@@ -30,14 +30,20 @@ function Navbar() {
                 </div>
                 <div>
                     <ul className="flex">
-                    <li className="text-xl px-4 archer-light text-hover py-4">
-                            <Link href="/">Home</Link>
+                        <li>
+                            <Link passHref href="/">
+                                <p className="px-4 archer-extra-light text-hover py-4">HOME</p>
+                            </Link>
                         </li>
-                        <li className="text-xl px-4 archer-light text-hover py-4">
-                            <Link href="/about-us">About Us</Link>
+                        <li>
+                            <Link passHref href="/about-us">
+                                <p className="px-4 archer-extra-light text-hover py-4">ABOUT US</p>
+                            </Link>
                         </li>
-                        <li className="text-xl px-4 archer-light text-hover py-4">
-                            <Link href="/contact">Contact Us</Link>
+                        <li>
+                            <Link passHref href="/contact">
+                                <p className="px-4 archer-extra-light text-hover py-4">CONTACT US</p>
+                            </Link>
                         </li>
                     </ul>
                 </div>
