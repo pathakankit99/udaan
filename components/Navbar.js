@@ -5,13 +5,21 @@ import Link from 'next/link'
 function Navbar() {
     const [count, setCount] = useState(1)
     const [open, setOpen] = useState(false)
-    console.log(open, count)
+    
+    const [open2, setOpen2] = useState(false)
+    const visible = { true: "100%", false: "0%" };
+    var style2 = {
+        opacity: visible[open2],
+        height: "90px"
+      };
+    // console.log(open, count)
     const sidemenu = { true: "translateX(0%)", false: "translateX(-100%)" };
     var style = {
         transform: sidemenu[open],
         minHeight: "100vh"
       };
       useEffect(() => {
+        setTimeout(()=>setOpen2(true), 7000)
         if(count%2==0)
         {
             setOpen(true)
@@ -23,7 +31,7 @@ function Navbar() {
     }, [count])
     return (
         <>
-            <nav style={{height: "100px"}} className="hidden fixed z-2 w-full brand-background text-white lg:flex justify-between items-center px-24 py-6">
+            <nav style={style2} className="hidden fixed z-2 w-full brand-background text-white lg:flex justify-between items-center px-24 py-6">
                 <div className="flex ">
                     <h1 className="text-3xl uppercase font-bold basic">Udaan Property</h1>
                     <img className="mx-4" width="30px" src="/images/logo/logo.png"/>
@@ -48,7 +56,7 @@ function Navbar() {
                     </ul>
                 </div>
             </nav>
-            <nav style={{height: "100px"}} className="lg:hidden z-2 text-white px-4 fixed right-0 left-0 top-0 flex items-center justify-between brand-background">
+            <nav style={style2} className="lg:hidden z-2 text-white px-4 fixed right-0 left-0 top-0 flex items-center justify-between brand-background">
                 <div className="flex ">
                     <h1 className="text-3xl uppercase font-bold basic">Udaan Property</h1>
                     <img className="mx-4" width="30px" src="/images/logo/logo.png"/>
