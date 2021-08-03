@@ -1,6 +1,6 @@
 function Section4() {
     return (
-        <section className="min-height-100 flex flex-wrap justify-center items-center p-4">
+        <section className="min-height-100 flex flex-wrap justify-around items-center p-4">
             <div className="w-full md:w-4/12">
                     <p className="cursive text-3xl brand-color">A walk in the park</p>
                     <p className="basic text-6xl pb-8 uppercase brand-color">Lifestyle</p>
