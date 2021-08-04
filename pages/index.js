@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Homepage from '../components/Homepage/Index'
+import Footer from '../components/Footer'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,9 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />  
       </Head>
       <Navbar/>
-      <main>
-         <Homepage/>
-      </main>
+      <Homepage/>
+      <Footer/>
     </>
   )
 }

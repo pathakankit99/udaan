@@ -7,7 +7,7 @@ function Section2() {
             </div>
             <div className="w-full md:w-6/12">
                 <p className="w-full md:w-5/12 pb-8 text-xl">Discover apartments that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
-                <button className="white-button button-font">FBook an appointment</button>
+                <button className="white-button button-font">Book an appointment</button>
             </div>
         </section>
     );
