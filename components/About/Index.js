@@ -1,10 +1,12 @@
+import Section1 from "./Section1";
+import Section2 from "./Section2";
+
 function Index() {
     return (
-        <>
-           <div className="bg-red-400">
-               hello
-           </div>
-        </>
+        <main>
+            <Section1/>
+            <Section2/>
+        </main>
     );
 }
 
