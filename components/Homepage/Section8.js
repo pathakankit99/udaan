@@ -5,7 +5,7 @@ function Section8() {
                     <p className="cursive text-3xl brand-color">Location of</p>
                     <p className="basic text-6xl pb-8 uppercase brand-color">Utsav Residential</p>
                     <p className="w-full pb-8 text-2xl font-bold brand-color">
-                        Utsav Residential's prime location and public transport options keep you connected to the 
+                        Utsav Residential prime location and public transport options keep you connected to the 
                         people and places that matter to you - now and into the future
                     </p>
                     <p className="w-full md:w-9/12 pb-8 text-lg">
