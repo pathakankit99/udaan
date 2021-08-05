@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react'
+import Link from 'next/link'
 function Section1() {
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
@@ -44,9 +45,11 @@ function Section1() {
                 <div>
                     <h3 className="brand-color font-bold cursive text-5xl">Utsav Residential</h3>
                     <h3 className="brand-color basic font-extrabold text-5xl uppercase">By Udaan Property</h3>
+                    <Link href="/#contact" passHref>
                     <button className="bg-white button-font mt-6 capitalise red-button">
                         Book an appointment
                     </button>
+                    </Link>
                 </div>
             </div>
         </section>

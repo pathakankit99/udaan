@@ -1,5 +1,6 @@
 import {GiElectric, GiShield, GiTap, GiTennisRacket,GiDefensiveWall} from "react-icons/gi"
 import {ImRoad} from "react-icons/im"
+import Link from 'next/link'
 function Section6() {
     return (
         <section className="homepage min-height-100 flex flex-wrap justify-between items-center p-4 md:px-24">
@@ -39,7 +40,11 @@ function Section6() {
                         <p>Roads</p>
                     </div>
                     <hr/>
-                    <button className="mt-6 red-button button-font">Book An Appointment</button>
+                    <Link href="/#contact" passHref>
+                    <button className="bg-white button-font mt-6 capitalise red-button">
+                        Book an appointment
+                    </button>
+                    </Link>
             </div>
             <div className="w-full md:w-6/12 order-1">
                 <img className="md:w-11/12 md:my-6" src="/images/design/road2.jpg"/>

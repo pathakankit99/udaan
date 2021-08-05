@@ -49,7 +49,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link passHref href="/contact">
+                            <Link passHref href="/#contact">
                                 <p className="px-4 archer-light pointer-on-hover text-hover py-4">CONTACT US</p>
                             </Link>
                         </li>
@@ -75,7 +75,7 @@ function Navbar() {
                             <Link href="/about-us">About Us</Link>
                         </li>
                         <li className="text-3xl archer-light text-hover py-4">
-                            <Link href="/contact">Contact Us</Link>
+                            <Link href="/#contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

@@ -17,7 +17,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link passHref href="/contact">
+                            <Link passHref href="/#contact">
                                 <p className="pr-4 archer-light hover:underline pointer-on-hover py-4">CONTACT US</p>
                             </Link>
                         </li>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 function Section2() {
     return (
         <section className="brand-background text-white min-height-50 flex flex-wrap p-4 justify-center items-center">
@@ -7,7 +8,9 @@ function Section2() {
             </div>
             <div className="w-full md:w-6/12">
                 <p className="w-full md:w-5/12 pb-8 text-xl">Discover apartments that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
-                <button className="white-button button-font">Book an appointment</button>
+                <Link href="/#contact" passHref>
+                    <button className="white-button button-font">Book an appointment</button>
+                </Link>
             </div>
         </section>
     );

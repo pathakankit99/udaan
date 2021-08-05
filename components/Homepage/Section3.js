@@ -1,3 +1,4 @@
+import Link from 'next/link'
 function Section3() {
     return (
         <section className="relative min-height-70 fade-right flex flex-wrap p-4 justify-end items-center">
@@ -11,7 +12,9 @@ function Section3() {
                 <p className="cursive text-3xl ">Your Happy Place</p>
                 <p className="basic text-6xl pb-8 uppercase">Vision</p>
                 <p className="w-full md:w-9/12 pb-8 text-xl">Discover apartments that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
-                <button className="white-button button-font">Book An Appointment</button>
+                <Link href="/#contact" passHref>
+                    <button className="white-button button-font">Book an appointment</button>
+                </Link>
             </div>
         </section>
     );

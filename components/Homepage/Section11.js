@@ -16,7 +16,7 @@ function Section11() {
         zoom: 10
       };
     return (
-        <section className="min-height-100 flex flex-wrap justify-center items-center">
+        <section id="contact" className="min-height-100 flex flex-wrap justify-center items-center">
             <div className="p-4 md:px-24 w-full md:w-6/12">
             <p className="cursive text-7xl brand-color pb-8 ">Get in Touch</p>
             
@@ -38,7 +38,7 @@ function Section11() {
                 <input className="block red-button button-font pointer-on-hover" type="submit"/>
             </form>
             </div>
-            <div className="w-full md:w-6/12 bg-red-500">
+            <div id="map" className="w-full md:w-6/12 bg-red-500">
                 <div style={{ height: '100vh', width: '100%' }}>
                     <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyA1dN3P6LD7ZO_GO3wpQzU4pLCO6u2DdAY' }}
