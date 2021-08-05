@@ -58,3 +58,7 @@ footer .icons:hover{
     background: #ed1c24;
     color: white;
 }
+
+::placeholder{
+    text-transform: uppercase;
+}
