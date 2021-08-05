@@ -35,7 +35,7 @@ function Footer() {
                 </div>
             </div>
             <hr/>
-            <div className="text-center md:text-left brand-color default py-4 text-sm">@2021 Created By <a className="cursive underline" href="https://www.pathakankit.com" target="_blank">Ankit Pathak</a></div>
+            <div className="text-center md:text-left brand-color default py-4 text-sm">@2021 Created By <a className="cursive underline" rel="noreferrer" href="https://www.pathakankit.com" target="_blank">Ankit Pathak</a></div>
         </footer>
     );
 }
