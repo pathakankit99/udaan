@@ -5,7 +5,7 @@ function Section11() {
             <div>
                 <p className="cursive text-xl brand-color">Utsav Residential</p>
                 <h3 className="brand-color basic font-extrabold text-xl uppercase">By Udaan Property</h3>
-                <a className="text-sm text-center underline" href="https://www.google.com/maps/place/Ranidanga,+West+Bengal/@26.6755338,88.3528552,15z/" target="_blank">View Direction</a>
+                <a rel="noreferrer" className="text-sm text-center underline" href="https://www.google.com/maps/place/Ranidanga,+West+Bengal/@26.6755338,88.3528552,15z/" target="_blank">View Direction</a>
             </div>
         </div>;
     const defaultProps = {

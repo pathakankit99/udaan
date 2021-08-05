@@ -26,10 +26,10 @@ function Footer() {
                 <div className="">
                     <ul className="flex">
                         <li className="icons">
-                            <a href="" target="_blank"><FaInstagram/></a>
+                            <a href="" target="_blank" rel="noreferrer"><FaInstagram/></a>
                         </li>
                         <li className="icons">
-                            <a href="" target="_blank"><FaFacebookF/></a>
+                            <a href="" target="_blank" rel="noreferrer"><FaFacebookF/></a>
                         </li>
                     </ul>
                 </div>
