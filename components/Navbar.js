@@ -52,6 +52,11 @@ function Navbar({calledBy}) {
                             </Link>
                         </li>
                         <li>
+                            <Link passHref href="/gallery">
+                                <p className="px-4 archer-light pointer-on-hover text-hover py-4">GALLERY</p>
+                            </Link>
+                        </li>
+                        <li>
                             <Link passHref href="/#contact">
                                 <p className="px-4 archer-light pointer-on-hover text-hover py-4">CONTACT US</p>
                             </Link>
@@ -76,6 +81,9 @@ function Navbar({calledBy}) {
                         </li>
                         <li className="text-3xl archer-light text-hover py-4">
                             <Link href="/about-us">About Us</Link>
+                        </li>
+                        <li className="text-3xl archer-light text-hover py-4">
+                            <Link href="/gallery">Gallery</Link>
                         </li>
                         <li className="text-3xl archer-light text-hover py-4">
                             <Link href="/#contact">Contact Us</Link>

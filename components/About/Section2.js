@@ -5,7 +5,7 @@ function Section2() {
                It’s time to live your best life. 
                To breathe easy and get physical. 
                To put self-care and happiness first. 
-               Discover lands for your future homes.
+               Discover lands for your future homes, apartments and cottages.
                Udaan Property helps you every step of the way.
             </p>
             <div className="py-12 w-full flex flex-wrap justify-center items-center">
