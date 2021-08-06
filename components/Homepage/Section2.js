@@ -7,7 +7,7 @@ function Section2() {
                 <p className="basic text-5xl uppercase">At Utsab <br/> Residential</p>
             </div>
             <div className="w-full md:w-6/12">
-                <p className="w-full md:w-5/12 pb-8 text-xl">Udaan Property came up with yet another splendid residential project called "UTSAB RESIDENTIAL".</p>
+                <p className="w-full md:w-5/12 pb-8 text-xl">Udaan Property came up with yet another splendid residential project called UTSAB RESIDENTIAL.</p>
                 <Link href="/#contact" passHref>
                     <button className="white-button button-font">Book an appointment</button>
                 </Link>
