@@ -3,7 +3,7 @@ function Section5() {
     return (
         <section className="relative min-height-70 fade-right flex flex-wrap p-4 justify-end items-center">
             <div className="-z-1 absolute top-0 bottom-0 left-0 right-0 bg-green-500 overflow-hidden">
-                <img className="w-full object-cover h-full" src="/images/design/img1.jpg"/>
+                <img className="w-full object-cover h-full" src="/images/design/tea.jpg"/>
             </div>
             <div className="w-full md:w-6/12">
 

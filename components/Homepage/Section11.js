@@ -23,8 +23,11 @@ function Section11() {
             <p className="cursive text-7xl brand-color pb-8 ">Get in Touch</p>
             
             <div className="pb-4">
+                <h5 className="font-bold text-lg pb-4">For Investors</h5>
+                <p className="pb-8">Undoubtedly we are expanding. We definitely would require a huge wings to fly high. It would be appropiate if youjoin us in our journey.
+                We promise your expertise will be well greeted. </p>
                 <h5 className="font-bold text-lg pb-4">Enquiry at:</h5>
-                <p><a href="tel:+918967379419" className="flex items-center"><div  className="mr-2 mb-2 red-icons"><FaPhoneAlt/></div> (+91) 89673 79419</a></p>
+                <p><a href="tel:+918967379419" className="flex items-center"><div  className="mr-2 mb-2 red-icons"><FaPhoneAlt/></div> (+91) 89673 79419, (+91) 93302 73310</a></p>
                 <p><a href="mailto:support@udaanproperty.com" className="flex items-center"><div  className="mr-2 mb-2 red-icons"><FaEnvelope/></div>support@udaanproperty.com</a></p>
             </div>
             <form>

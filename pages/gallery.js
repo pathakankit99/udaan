@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
-// import Index from '../components/About/Index'
+import Index from '../components/gallery/Index'
 import Footer from '../components/Footer'
 // import styles from '../styles/Home.module.css'
 
@@ -13,7 +13,7 @@ export default function Gallery() {
         <link rel="icon" href="/favicon.ico" />  
       </Head>
       <Navbar calledBy="about"/>
-      {/* <Index/> */}
+      <Index/>
       <Footer/>
     </>
   )

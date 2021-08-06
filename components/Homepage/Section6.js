@@ -1,6 +1,6 @@
-import {GiElectric, GiShield, GiTap, GiTennisRacket,GiDefensiveWall} from "react-icons/gi"
+import {GiElectric, GiShield, GiTap,GiCctvCamera, GiTennisRacket,GiDefensiveWall} from "react-icons/gi"
 import {ImRoad} from "react-icons/im"
-import {FaStore } from 'react-icons/fa'
+import {FaParking, FaStore } from 'react-icons/fa'
 import Link from 'next/link'
 function Section6() {
     return (
@@ -9,11 +9,21 @@ function Section6() {
                     <p className="cursive text-3xl brand-color">Live in comfort</p>
                     <p className="basic text-6xl pb-8 uppercase brand-color">Amenities</p>
                     <p className="w-full md:w-9/12 pb-8 text-xl">
-                        At Utsav Residential, We want our clients to have access to all possible essential amenities, so we took it upon ourselves to provide you with these set of amenities:
+                        At Utsav Residential, We want our clients to have access to all possible essential amenities, so we took it upon ourselves to provide all the apartments and cottages with these set of amenities:
                     </p>
+                    <div className="my-3 flex items-center">
+                        <span className="icons"><GiCctvCamera/></span>
+                        <p>CCTV</p>
+                    </div>
+                    <hr/>
                     <div className="my-3 flex items-center">
                         <span className="icons"><GiElectric/></span>
                         <p>Electricity</p>
+                    </div>
+                    <hr/>
+                    <div className="my-3 flex items-center">
+                        <span className="icons"><FaParking/></span>
+                        <p>Parking</p>
                     </div>
                     <hr/>
                     <div className="my-3 flex items-center">

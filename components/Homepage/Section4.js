@@ -5,7 +5,13 @@ function Section4() {
             <div className="w-full md:w-4/12">
                     <p className="cursive text-3xl brand-color">A walk in the park</p>
                     <p className="basic text-6xl pb-8 uppercase brand-color">Lifestyle</p>
-                    <p className="w-full md:w-9/12 pb-8 text-xl">Build your house in the lap of the nature, away from pollution of the city for a healthy and longer lifespan.</p>
+                    <p className="w-full md:w-9/12 pb-8 text-xl">UTSAB is one of the best
+                    residential in the area ensuring complete smooth living. <br/><br/>
+                    Having options of Develop Land/plots for your beautiful Home, Apartment and Cottage.
+                    <br/><br/>
+                    All these apartments and cottages have been designed with good ventilation and also drenched with gentle breeze.
+                    All these flats have been designed with high quality customize flooring for a complete sophisticated look.
+                    </p>
                     <Link href="/#contact" passHref>
                     <button className="bg-white button-font mt-6 capitalise red-button">
                         Book an appointment

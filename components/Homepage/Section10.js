@@ -1,4 +1,4 @@
-import {FaAmbulance, FaPlane, FaTrain} from 'react-icons/fa'
+import {FaAmbulance, FaHospitalAlt, FaPlane, FaShoppingCart, FaTrain} from 'react-icons/fa'
 import {ImBooks} from "react-icons/im"
 function Section10() {
     return (
@@ -6,7 +6,7 @@ function Section10() {
             <p className=" p-4 md:px-24 cursive text-6xl brand-color">Utsav Residential</p>
             <p className=" p-4 md:px-24 basic text-7xl uppercase brand-color">Plan</p>
             <img className=" p-4 md:px-24 w-full py-4" src="/images/utsav/utsav2.jpg"/>
-            <div className=" p-4 md:px-24  bg-red-100 flex flex-wrap justify-between items-start">
+            <div className=" p-4 md:px-24  bg-red-100 flex flex-wrap justify-around items-start">
                 <div className="w-full md:w-3/12 p-4 pb-16">
                     <div   className="icons mb-4">
                         <FaTrain/>
@@ -25,7 +25,7 @@ function Section10() {
                     </div>
                     <p className="pb-2 brand-color text-3xl uppercase archer-bold">Airport</p>
                     <p className="text-lg plantin-light">
-                    Utsav Residential is located just 5Km from Bagdogra Airport
+                    Utsav Residential is located just <b>5Km</b> from Bagdogra Airport
                     Bagdogra Airport is an international airport located at the western part of the city of siliguri.
                     It is operated as a civil enclave at AFS Bagdogra of the Indian Air Force. 
                     <br/><br/>
@@ -54,6 +54,28 @@ function Section10() {
                     <br/><br/>
                     It is one of the twelve govt medical colleges in West Bengal and the largest in terms of area and patient influx. 
                     The hospital has a bed strength of 862 and caters to a large population of 15 Million in North Bengal.
+                    </p>
+                </div>
+                <div className="w-full md:w-3/12 p-4 pb-16">
+                    <div   className="icons mb-4">
+                        <FaShoppingCart/>
+                    </div>
+                    <p className="pb-2 brand-color text-3xl uppercase archer-bold">City Center Mall </p>
+                    <p className="text-lg plantin-light">
+                    Utsav Residential is located just <b>5Km</b> from City Center Mall.
+                    City Center Mall is one of the primary entertainment and shopping center of North Bengal. With a pleothra of entertainment options from 
+                    Various shopping outlets like shopper's stop, reliance digital, turtle, being human, louis philipe etc to 
+                    cinema house like INOX to restaurant and dining options like KFC, Subway, Pizza Hut, domios to bars and children play area, City center has it all.
+                    </p>
+                </div>
+                <div className="w-full md:w-3/12 p-4 pb-16">
+                    <div   className="icons mb-4">
+                        <FaHospitalAlt/>
+                    </div>
+                    <p className="pb-2 brand-color text-3xl uppercase archer-bold">Neotia Hospital</p>
+                    <p className="text-lg plantin-light">
+                    Neotia is one of the most prominent super speciality hospital in all of North Bengal.
+                    With great infrastructure and superior healthcare facilities as its hallmark, It offers a comprehensive medical care at a competent price.
                     </p>
                 </div>
             </div>
