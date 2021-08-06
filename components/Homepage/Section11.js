@@ -1,4 +1,6 @@
 import GoogleMapReact from 'google-map-react';
+import {FaEnvelope, FaPhoneAlt} from 'react-icons/fa'
+import {useState} from 'react'
 function Section11() {
     const AnyReactComponent = ({ text }) => 
         <div style={{width:'200px',height:'200px'}} className="relative bg-white p-4 flex justify-center items-center">
@@ -22,8 +24,8 @@ function Section11() {
             
             <div className="pb-4">
                 <h5 className="font-bold text-lg pb-4">Enquiry at:</h5>
-                <p><a href="tel:+918967379419">(+91) 89673 79419</a></p>
-                <p><a href="mailto:support@udaanproperty.com">support@udaanproperty.com</a></p>
+                <p><a href="tel:+918967379419" className="flex items-center"><div  className="mr-2 mb-2 red-icons"><FaPhoneAlt/></div> (+91) 89673 79419</a></p>
+                <p><a href="mailto:support@udaanproperty.com" className="flex items-center"><div  className="mr-2 mb-2 red-icons"><FaEnvelope/></div>support@udaanproperty.com</a></p>
             </div>
             <form>
                 <div className="w-full md:w-10/12 lg:w-8/12 flex flex-wrap justify-between ">

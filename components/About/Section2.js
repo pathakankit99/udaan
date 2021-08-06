@@ -14,8 +14,9 @@ function Section2() {
                 </div>
                 <div className="w-full md:w-3/12 p-4">
                     <p className="brand-color cursive text-5xl ">Our</p>
-                    <p className="brand-color basic text-7xl pb-8 uppercase">Vision</p>
-                    <p className="text-lg font-light">We at Udaan Property are a very customer centric organization and always looking forward to help our clients find a perfect place for them to build their homes.</p>
+                    <p className="brand-color basic text-7xl pb-8 uppercase">Values</p>
+                    <p className="text-lg font-light">In letter and spirit, our brand pillars stand at the very core of who we are and what we stand for - not just in our deliveries 
+                    but also in our everyday conduct. Our approach to work and all interactions with customers, vendors, channel-partners, collegues and society at large is defined and enriched by our values.</p>
                 </div>
             </div>
         </section>

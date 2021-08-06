@@ -1,5 +1,6 @@
 import {GiElectric, GiShield, GiTap, GiTennisRacket,GiDefensiveWall} from "react-icons/gi"
 import {ImRoad} from "react-icons/im"
+import {FaStore } from 'react-icons/fa'
 import Link from 'next/link'
 function Section6() {
     return (
@@ -32,7 +33,7 @@ function Section6() {
                     <hr/>
                     <div className="my-3 flex items-center">
                         <span className="icons"><GiDefensiveWall/></span>
-                        <p>Boundary</p>
+                        <p>Boundary Wall</p>
                     </div>
                     <hr/>
                     <div className="my-3 flex items-center">
@@ -40,6 +41,10 @@ function Section6() {
                         <p>Roads</p>
                     </div>
                     <hr/>
+                    <div className="my-3 flex items-center">
+                        <span className="icons"><FaStore/></span>
+                        <p>General Store</p>
+                    </div>
                     <Link href="/#contact" passHref>
                     <button className="bg-white button-font mt-6 capitalise red-button">
                         Book an appointment

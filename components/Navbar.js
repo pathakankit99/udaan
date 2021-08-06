@@ -2,7 +2,7 @@ import {useState, useEffect} from "react"
 import {FaBars} from 'react-icons/fa'
 import {MdClose} from 'react-icons/md'
 import Link from 'next/link'
-function Navbar() {
+function Navbar({calledBy}) {
     const [count, setCount] = useState(1)
     const [open, setOpen] = useState(false)
     
@@ -19,7 +19,10 @@ function Navbar() {
         minHeight: "100vh"
       };
       useEffect(() => {
-        setTimeout(()=>setOpen2(true), 7000)
+        if(calledBy==="home")
+        setTimeout(()=>setOpen2(true), 3000)
+        else
+        setOpen2(true)
         if(count%2==0)
         {
             setOpen(true)

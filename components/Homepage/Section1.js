@@ -23,11 +23,11 @@ function Section1() {
         opacity: visible[open5],
     };
       useEffect(() => {
-        setTimeout(()=>setOpen(true), 1000)
-        setTimeout(()=>setOpen2(true), 3000)
-        setTimeout(()=>setOpen3(true), 4000)
-        setTimeout(()=>setOpen4(true), 5000)
-        setTimeout(()=>setOpen5(true), 6000)
+        setTimeout(()=>setOpen(true), 500)
+        setTimeout(()=>setOpen2(true), 1000)
+        setTimeout(()=>setOpen3(true), 1500)
+        setTimeout(()=>setOpen4(true), 2000)
+        setTimeout(()=>setOpen5(true), 2500)
     }, [])
     return (
         <section className="homepage relative min-height-100 text-center">
@@ -43,7 +43,7 @@ function Section1() {
             </div>
             <div style={style} className="min-height-100 z-2 center-content">
                 <div>
-                    <h3 className="brand-color font-bold cursive text-5xl">Utsav Residential</h3>
+                    <h3 className="brand-color font-bold cursive text-5xl">Utsab Residential</h3>
                     <h3 className="brand-color basic font-extrabold text-5xl uppercase">By Udaan Property</h3>
                     <Link href="/#contact" passHref>
                     <button className="bg-white button-font mt-6 capitalise red-button">
