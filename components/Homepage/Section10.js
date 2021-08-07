@@ -64,7 +64,7 @@ function Section10() {
                     <p className="text-lg plantin-light">
                     Utsav Residential is located just <b>5Km</b> from City Center Mall.
                     City Center Mall is one of the primary entertainment and shopping center of North Bengal. With a pleothra of entertainment options from 
-                    Various shopping outlets like shopper's stop, reliance digital, turtle, being human, louis philipe etc to 
+                    Various shopping outlets like shoppers stop, reliance digital, turtle, being human, louis philipe etc to 
                     cinema house like INOX to restaurant and dining options like KFC, Subway, Pizza Hut, domios to bars and children play area, City center has it all.
                     </p>
                 </div>
