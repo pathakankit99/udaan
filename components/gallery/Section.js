@@ -1,7 +1,7 @@
 function Section() {
     return (
         <section className="p-4 pb-16 pt-32 lg:px-32">
-            <h3 className="text-3xl heading font-bold mb-6">Development work at Utasab Residential</h3>
+            <h3 className="text-3xl heading font-bold mb-6">Development work at Utsab Residential</h3>
             <div className="grid-wrapper pt-16 lg:pt-0">
             {
                 PHOTOS.map((item)=>(

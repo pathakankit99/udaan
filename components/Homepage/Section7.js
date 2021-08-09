@@ -11,7 +11,7 @@ function Section7() {
             <div className="z-2 text-white w-full md:w-4/12 xl:w-3/12">
                 <p className="cursive text-3xl ">We love to talk</p>
                 <p className="basic text-6xl pb-8 uppercase">Contact Us</p>
-                <p className="w-full md:w-9/12 pb-8 text-xl">Discover apartments that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
+                <p className="w-full md:w-9/12 pb-8 text-xl">Communication is the key for any thriving business. As such, we are always eager to talk to our clients about their needs. Feel free to contact us anytime.</p>
                 <Link href="/#contact" passHref>
                     <button className="white-button button-font">Book an appointment</button>
                 </Link>

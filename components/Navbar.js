@@ -35,10 +35,12 @@ function Navbar({calledBy}) {
     return (
         <>
             <nav style={style2} className="hidden fixed z-20 w-full brand-background text-white lg:flex justify-between items-center px-24 py-6">
-                <div className="flex ">
+                <Link href='/' passHref>
+                <div className="flex pointer-on-hover">
                     <h1 className="text-3xl uppercase font-bold basic">Udaan Property</h1>
                     <img className="mx-4" width="30px" src="/images/logo/logo.png"/>
                 </div>
+                </Link>
                 <div>
                     <ul className="flex">
                         <li>
@@ -65,10 +67,12 @@ function Navbar({calledBy}) {
                 </div>
             </nav>
             <nav style={style2} className="lg:hidden z-20 text-white px-4 fixed right-0 left-0 top-0 flex items-center justify-between brand-background">
+                <Link href="/" passHref>
                 <div className="flex ">
                     <h1 className="text-3xl uppercase font-bold basic">Udaan Property</h1>
                     <img className="mx-4" width="30px" src="/images/logo/logo.png"/>
                 </div>
+                </Link>
                 <div className="text-white text-4xl z-3 pointer-on-hover"   onClick={()=>{setCount(count+1)  }}>
                     {
                         count%2!==0?(<FaBars/> ):(<MdClose/>)

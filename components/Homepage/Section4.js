@@ -18,7 +18,7 @@ function Section4() {
                     </button>
                     </Link>
             </div>
-            <div className="w-full md:w-6/12">
+            <div className="w-full md:w-6/12 pt-4">
                 <img className="md:w-11/12 md:m-6" src="/images/design/park3.jpg"/>
                 <div className="w-full  flex">
                     <div className="py-4 md:p-4">

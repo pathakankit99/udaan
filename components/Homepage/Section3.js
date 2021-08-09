@@ -9,9 +9,9 @@ function Section3() {
 
             </div>
             <div className="z-2 text-white w-full md:w-4/12 xl:w-3/12">
-                <p className="cursive text-3xl ">Your Happy Place</p>
-                <p className="basic text-6xl pb-8 uppercase">Vision</p>
-                <p className="w-full md:w-9/12 pb-8 text-xl">Discover apartments that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
+                <p className="cursive text-3xl ">Your Happy</p>
+                <p className="basic text-6xl pb-8 uppercase">Residence</p>
+                <p className="w-full md:w-9/12 pb-8 text-xl">Discover apartments/Cottages/Lands that enhance your wellbeing. Live a healthy and balanced life with everything you enjoy at your fingertips.</p>
                 <Link href="/#contact" passHref>
                     <button className="white-button button-font">Book an appointment</button>
                 </Link>
