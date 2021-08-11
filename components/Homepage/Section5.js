@@ -11,7 +11,7 @@ function Section5() {
             <div className="z-2 text-white w-full md:w-4/12 xl:w-3/12">
                 <p className="cursive text-3xl ">Located in</p>
                 <p className="basic text-6xl pb-8 uppercase">Ranidanga</p>
-                <p className="w-full md:w-9/12 pb-8 text-xl">Ranidanga is beautiful town located on the foothills of Darjeeling. It has ample of greenery and a clean, fresh and healthy Envirnment.</p>
+                <p className="w-full md:w-9/12 pb-8 text-xl">Ranidanga is beautiful town located on the foothills of Darjeeling. It has ample of greenery and a clean, fresh and healthy Environment.</p>
                 <Link href="/#location" passHref>
                     <button className="white-button button-font">Read More</button>
                 </Link>
