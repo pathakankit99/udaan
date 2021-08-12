@@ -43,7 +43,7 @@ function Section1() {
             </div>
             <div style={style} className="min-height-100 z-2 center-content">
                 <div>
-                    <h3 className="brand-color font-bold cursive text-5xl">Utsab Residential</h3>
+                    <h3 className="brand-color font-bold cursive text-5xl">Utsav Residential</h3>
                     <h3 className="brand-color basic font-extrabold text-5xl uppercase">By Udaan Property</h3>
                     <Link href="/#contact" passHref>
                     <button className="bg-white button-font mt-6 capitalise red-button">

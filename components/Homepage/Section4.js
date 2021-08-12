@@ -5,7 +5,7 @@ function Section4() {
             <div className="w-full md:w-4/12">
                     <p className="cursive text-3xl brand-color">A walk in the park</p>
                     <p className="basic text-6xl pb-8 uppercase brand-color">Lifestyle</p>
-                    <p className="w-full md:w-9/12 pb-8 text-xl">UTSAB is one of the best
+                    <p className="w-full md:w-9/12 pb-8 text-xl">UTSAV is one of the best
                     residential in the area ensuring complete smooth living. <br/><br/>
                     Having options of Develop Land/plots for your beautiful Home, Apartment and Cottage.
                     <br/><br/>

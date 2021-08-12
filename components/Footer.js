@@ -1,5 +1,5 @@
 import Link from "next/link"
-import {FaInstagram, FaFacebookF} from "react-icons/fa"
+import {FaInstagram, FaFacebookF, FaYoutube} from "react-icons/fa"
 function Footer() {
     return (
         <footer className="p-4 md:px-24">
@@ -31,10 +31,13 @@ function Footer() {
                 <div className="">
                     <ul className="flex">
                         <li className="icons">
-                            <a href="" target="_blank" rel="noreferrer"><FaInstagram/></a>
+                            <a href="https://www.instagram.com/udaanproperty/" target="_blank" rel="noreferrer"><FaInstagram/></a>
                         </li>
                         <li className="icons">
-                            <a href="" target="_blank" rel="noreferrer"><FaFacebookF/></a>
+                            <a href="https://www.facebook.com/profile.php?id=100071358764903" target="_blank" rel="noreferrer"><FaFacebookF/></a>
+                        </li>
+                        <li className="icons">
+                            <a href="https://www.youtube.com/channel/UC13aI041cKwujKXYIauUD1g" target="_blank" rel="noreferrer"><FaYoutube/></a>
                         </li>
                     </ul>
                 </div>
