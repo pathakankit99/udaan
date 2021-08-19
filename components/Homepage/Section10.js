@@ -5,7 +5,7 @@ function Section10() {
         <section className="section10  pt-16">
             <p className=" p-4 md:px-24 cursive text-6xl brand-color">Utsav Residential</p>
             <p className=" p-4 md:px-24 basic text-7xl uppercase brand-color">Plan</p>
-            <img className=" p-4 md:px-24 w-full py-4" src="/images/utsav/utsav2.jpg"/>
+            <img className=" p-4 md:px-24 w-full py-4" src="/images/utsav/map.webp"/>
             <div className=" p-4 md:px-24  bg-red-100 flex flex-wrap justify-around items-start">
                 <div className="w-full md:w-3/12 p-4 pb-16">
                     <div   className="icons mb-4">

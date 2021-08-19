@@ -71,7 +71,7 @@ function Section11() {
                 <p className="pb-8">Undoubtedly we are expanding. We definitely would require a huge wings to fly high. It would be appropiate if you join us in our journey.
                 We promise your expertise will be well greeted. </p>
                 <h5 className="font-bold text-lg pb-4">Enquiry at:</h5>
-                <div><a href="tel:+918967379419" className="flex items-center"><span  className="mr-2 mb-2 red-icons"><FaPhoneAlt/></span> (+91) 89673 79419, (+91) 93302 73310</a></div>
+                <div><a href="tel:+918967379419" className="flex items-center"><span  className="mr-2 mb-2 red-icons"><FaPhoneAlt/></span> (+91) 89673 79419 (Sanjay Singh), (+91) 93302 73310 (Biswajit Mandol)</a></div>
                 <div><a href="mailto:support@udaanproperty.com" className="flex items-center"><span  className="mr-2 mb-2 red-icons"><FaEnvelope/></span>support@udaanproperty.com</a></div>
             </div>
             {/* <button onClick={(e)=>console.log("1")} className="red-button">Add Row</button> */}
