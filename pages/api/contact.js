@@ -14,17 +14,17 @@ contact.post(async(req, res) => {
             const {name, email, message, phone} = req.body;
             // console.log(req.body)
             var transporter = nodemailer.createTransport({
-                host: "smtp.mailgun.org",
+                host: "smtp.sendgrid.net",
                 port: 587,
                 auth: {
                     user: process.env.NEXT_PUBLIC_MAIL_USERNAME,
                     pass: process.env.NEXT_PUBLIC_MAIL_PASS
                 }
               });
-              
+              // mbiswajit84@gmail.com
               var mailOptions = {
-                from: 'admin@udaanproperty.com',
-                to: 'mbiswajit84@gmail.com',
+                from: 'udaanproperty123@gmail.com',
+                to: ['ankitpathak143192@gmail.com','mbiswajit84@gmail.com'],
                 subject: name+" has filled the contact us form",
                 html: "Name: "+name+" <br/>Email: "+email+" <br/>Contact Number: "+phone+" <br/>Message: "+message,
               };
