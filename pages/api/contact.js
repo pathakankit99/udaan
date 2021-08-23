@@ -24,7 +24,7 @@ contact.post(async(req, res) => {
               
               var mailOptions = {
                 from: 'admin@udaanproperty.com',
-                to: ['ankitpathak143192@gmail.com','mbiswajit84@gmail.com'],
+                to: 'ankitpathak143192@gmail.com',
                 subject: name+" has filled the contact us form",
                 html: "Name: "+name+" <br/>Email: "+email+" <br/>Contact Number: "+phone+" <br/>Message: "+message,
               };
