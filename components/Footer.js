@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="p-4 md:px-24">
             <div className="flex flex-wrap justify-center pb-4 md:justify-between items-center brand-color ">
-                <div className="w-full md:w-3/12">
+                <div className="w-full lg:w-6/12">
                     <ul className="flex justify-center md:justify-start w-full">
                         <li>
                             <Link passHref href="/">
